@@ -1,0 +1,72 @@
+/* Reset and base styles */
+/* ... */
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  form {
+    display: grid;
+    grid-gap: 1rem;
+  }
+  
+  #result {
+    margin-top: 2rem;
+    border: 1px solid #ccc;
+    padding: 1rem;
+  }
+  
+  .rating {
+    display: flex;
+    align-items: center;
+  }
+  
+  .stars {
+    color: gold;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  #explore-link {
+    display: block;
+    margin-top: 2rem;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-decoration: none;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    nav {
+      margin-top: 1rem;
+    }
+  
+    nav a {
+      margin-left: 0;
+      margin-right: 1rem;
+    }
+  }

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Rating Predictor</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>BHAVESH YADAV</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Predictor</a>
+      <a href="#">About me</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Welcome to Rating Predictor</h2>
+    <p>Enter the details and get the Rating :</p>
+    <form>
+      <div>
+        <label for="restaurant-type">Restaurant type</label>
+        <select id="restaurant-type">
+          <option value="">select here</option>
+          <!-- Add options for restaurant types -->
+        </select>
+      </div>
+      <!-- Add more input fields for cuisines, online order facility, book table facility, location, cost for people, and no. of votes -->
+      <button type="submit">Submit</button>
+      <button type="button">Cancel</button>
+    </form>
+    <div id="result">
+      <h3>Result</h3>
+      <p>Expected Rating</p>
+      <div class="rating">
+        <span class="stars">&#9733;&#9733;&#9733;&#9733;</span>
+        <span class="score">4.0 / 5</span>
+      </div>
+    </div>
+    <a href="#" id="explore-link">Click Here to Explore</a>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
